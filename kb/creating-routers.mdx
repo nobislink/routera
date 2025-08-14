@@ -1,0 +1,32 @@
+---
+title: "Creating a Router"
+description: "This article will guide you through the process of creating a router on Routera to assign leads"
+---
+
+Routers are a core feature of Routera, allowing you to assign leads efficiently. To create a router, follow these steps:
+
+- In the left sidebar, click on **Routers**, then **Create Router**
+- When prompted, confirm whether you are using HubSpot by selecting **Yes** or **No**.
+
+<Note>
+  You can connect your HubSpot account by following the instructions of [this article](#)
+</Note>
+
+### If you're using your HubSpot account
+
+The **HubSpot Configuration** tab includes the following settings:
+
+![Clean Shot2025 08 14at16 35 04 Pn](/images/CleanShot2025-08-14at16.35.04.png)
+
+- \*\*The router's name as "Unnamed Router": \*\*You can click on this title to change its name.
+- **HubSpot Object:** Select the HubSpot object type (e.g., Contacts, Deals) you want to assign.
+- **Owner Property:** Choose the owner property (e.g., Contact Owner) used for assignments. You can create additional owner properties in HubSpot by following [this guide](https://knowledge.hubspot.com/properties/create-and-edit-properties).
+- **Overwrite Options:** Define how the router should handle assignments when an object record already has an owner:
+  - **Never Overwrite:** Keeps the existing owner if one is already assigned.
+  - **Overwrite Only if Current User Is Not Available:** Reassigns only if the current owner is unavailable (e.g., outside working hours or out of office).
+  - **Always Overwrite:** Reassigns the record to the new owner regardless of the current owner.
+
+When you finish setting these options, click on **Next **<Icon icon="arrow-right" /> to select your router's users. The following options will appear:
+
+- **Do you want to select users manuall or from a team?** **Manually** select users individually for this rotation, or select **Team** to add an entire team—making it easier to manage members across multiple routers by updating the team.
+- 
