@@ -46,7 +46,7 @@ When you're done, click **Next** <Icon icon="arrow-right" /> to open the **Model
 ![Clean Shot2025 08 14at17 37 08 Pn](/images/CleanShot2025-08-14at17.37.08.png)
 
 <Note>
-  The total percentage must equal 100%, otherwise Routera will return an error.
+  The total percentage must equal 100%; otherwise, Routera will return an error.
 </Note>
 
 - **View queue:** Previews how the first 100 records will be distributed under the selected model.
@@ -68,4 +68,18 @@ When finished, click **Save & Publish** to publish your router.
 
 ### Setting Up a Workflow for Your Router
 
-With your router published, you can now create a workflow to use it. Follow these steps:
+With your router published, you can now create a workflow to use it.
+
+- In HubSpot, navigate to Automations on the left sidebar, then select **Workflows**. Then, go to **Create Workflow **on the upper right, and then **From Scratch**
+- Click on **Skip trigger and choose eligible records**, and then select the object your router is based on (for example, if your router **HubSpot object** is **Contacts**, select **Contact** on this option), then click on **Save and continue**
+- After setting up your [workflow triggers](https://knowledge.hubspot.com/workflows/set-your-workflow-enrollment-triggers), click on the <Icon icon="circle-plus" /> Sign on your workflow to add an action
+- On **Search actions**, type "Routera", then click on **Assign with Routera (V2)**
+- You'll see the following section with a dropdown of all your created routers. Select the router you just created, and then **Save**
+
+![Clean Shot2025 08 15at11 39 14 Pn](/images/CleanShot2025-08-15at11.39.14.png)
+
+- When you finish setting up your workflow, click on **Review and publish**
+
+<Check>
+  You have now configured your router successfully
+</Check>
