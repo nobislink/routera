@@ -1,24 +1,24 @@
 ---
 title: "Creating a Router"
-description: "This article will guide you through the process of creating a router on Routera to assign records, as well as explaining the rotation and models you can select."
+description: "This article will guide you through the process of creating a router in Routera to assign records, as well as explaining the rotation and models you can select."
 ---
 
-Routers are the core feature of Routera, allowing you to assign records efficiently. To create a router, follow these steps:
+Routers are a core feature of Routera, allowing you to assign records efficiently. To create a router, follow these steps:
 
-- In the left sidebar, click on **Routers**, then **Create Router**
+- In the left sidebar, click **Routers**, then **Create Router**.
 - When prompted, confirm whether you are using HubSpot by selecting **Yes** or **No**.
 
 <Note>
-  You can connect your HubSpot account by following the instructions of [this article](#)
+  You can connect your HubSpot account by following the instructions in [this article](#).
 </Note>
 
-### If you're using your HubSpot account
+### If You're Using Your HubSpot Account
 
 The **HubSpot Configuration** tab includes the following settings:
 
 ![Clean Shot2025 08 14at16 35 04 Pn](/images/CleanShot2025-08-14at16.35.04.png)
 
-- **The router's name as "Unnamed Router":** You can click on this title to change its name.
+- **The router's name as "Unnamed Router":** Click the title to change the name.
 - **HubSpot Object:** Select the HubSpot object type (e.g., Contacts, Deals) you want to assign.
 - **Owner Property:** Choose the owner property (e.g., Contact Owner) used for assignments. You can create additional owner properties in HubSpot by following [this guide](https://knowledge.hubspot.com/properties/create-and-edit-properties).
 - **Overwrite Options:** Define how the router should handle assignments when an object record already has an owner:
@@ -26,44 +26,46 @@ The **HubSpot Configuration** tab includes the following settings:
   - **Overwrite Only if Current User Is Not Available:** Reassigns only if the current owner is unavailable (e.g., outside working hours or out of office).
   - **Always Overwrite:** Reassigns the record to the new owner regardless of the current owner.
 
-When you finish setting these options up, click on **Next** <Icon icon="arrow-right" /> to select your router's **Users**. The following options will appear:
+When you finish setting these options, click **Next** <Icon icon="arrow-right" /> to select your router's **Users**. The following options will appear:
 
 ![Clean Shot2025 08 14at17 06 11copy Pn](/images/CleanShot2025-08-14at17.06.11copy.png)
 
-- **Do you want to select users manuall or from a team?** **Manually** select users individually for this rotation, or select **Team** to add an entire team—making it easier to manage members across multiple routers by updating the team.
-- **Backup user**: Select a backup user so they receive assignments when all other users are unavailable, ensuring the rotation is always covered.
-- **Disable backup user**: If the backup user is disabled, no owner will be assigned when all users are unavailable
-- **Disable working hours when all users are unavailable:** Selecting this option allows the rotation to assign as if all users were available when everyone is outside their office hours, effectively bypassing office hours <u>only in that case</u>.
+- **Do you want to select users manually or from a team?** Select **Manually** to choose individual users for this rotation, or **Team** to add an entire team—making it easier to manage members across multiple routers by updating the team.
+- **Backup user:** Select a backup user to receive assignments when all other users are unavailable, ensuring the rotation is always covered.
+- **Disable backup user:** If the backup user is disabled, no owner will be assigned when all users are unavailable.
+- **Disable working hours when all users are unavailable:** If selected, the rotation will assign as if all users were available when everyone is outside their office hours, effectively bypassing office hours _only in that case_.
 
 When you're done, click **Next** <Icon icon="arrow-right" /> to open the **Model** tab. The following options will appear:
 
-- **Round Robin tab:** The round robin tab allow you to distribute your records equally. Every user will receive the same amount of records. You may drag and drop each user to change its order.
+- **Round Robin tab:** Distributes your records equally so every user receives the same number. Drag and drop users to change their order.
 
 ![Clean Shot2025 08 14at17 15 58 Pn](/images/CleanShot2025-08-14at17.15.58.png)
 
-- **Percentage tab:** The percentage tab will allow you to control the percentage of records each user will receive on each rotation. You may change each user's percentage by changing their corresponding number.
+- **Percentage tab:** Controls the percentage of records each user will receive in each rotation. Adjust percentages by changing the corresponding numbers.
 
 ![Clean Shot2025 08 14at17 37 08 Pn](/images/CleanShot2025-08-14at17.37.08.png)
 
 <Note>
-  The total percentage must equal 100%, otherwise, Routera will return an error
+  The total percentage must equal 100%, otherwise Routera will return an error.
 </Note>
 
-- **View queue: **this option will allow you to preview how the first 100 records will be distributed under that model.
+- **View queue:** Previews how the first 100 records will be distributed under the selected model.
 
-After setting up the router’s model, click **Next** to open the Account Matching tab. When enabled, this feature matches the owner (if available) of an associated object to the one selected in your router’s **HubSpot Configuration **tab.
+After setting up the router’s model, click **Next** to open the **Account Matching** tab. When enabled, this feature matches the owner (if available) of an associated object to the one selected in your router’s **HubSpot Configuration** tab.
 
-For example, if you selected **Contacts** as the **HubSpot object**, **Account Matching** can match the owner of an associated company, deal, or ticket—provided those objects have an assigned owner.
+For example, if you selected **Contacts** as the HubSpot object, **Account Matching** can match the owner of an associated company, deal, or ticket—provided those objects have an assigned owner.
 
-When you click on **Enable account matching**, the following options will appear:
+When you click **Enable account matching**, the following options will appear:
 
-- **Which HubSpot object do you want to match the owner from? **Select the desired object from the dropdown list.
-- **Which _object_ should we select?** Choose whether to match the _most recently updated_, _most recently created_, or _first created_ object.
+- **Which HubSpot object do you want to match the owner from?** Select the desired object from the dropdown list.
+- **Which object should we select?** Choose whether to match the _most recently updated_, _most recently created_, or _first created_ object.
 
 ![Clean Shot2025 08 14at18 03 52 Pn](/images/CleanShot2025-08-14at18.03.52.png)
 
-When finished, click **Save & Publish** to publish your router. 
+When finished, click **Save & Publish** to publish your router.
 
-### Setting up a workflow for your router.
+---
+
+### Setting Up a Workflow for Your Router
 
 With your router published, you can now create a workflow to use it. Follow these steps:
