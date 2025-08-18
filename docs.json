@@ -48,7 +48,7 @@
       ]
     }
   },
-  "logo": { "light": "/logo/routera-logo.png", "dark": "/logo/routera-log.png" },
+  "logo": { "light": "/logo/routera-logo.png", "dark": "/logo/routera-logo.png" },
   "navbar": {
     "links": [{ "label": "Support", "href": "mailto:support@routera.io" }],
     "primary": { "type": "button", "label": "Dashboard", "href": "https://www.routera.io" }
