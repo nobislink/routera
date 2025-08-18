@@ -80,8 +80,8 @@
           {
             "group": "Users",
             "pages": [
-              "kb/inviting-users.mdx",
-              "kb/user-availability.mdx"
+              "kb/inviting-users",
+              "kb/user-availability"
             ]
           }
         ]
