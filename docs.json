@@ -11,50 +11,11 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Knowledge A",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": ["index", "quickstart", "development"]
-          },
-          {
-            "group": "Customization",
-            "pages": ["essentials/settings", "essentials/navigation"]
-          },
-          {
-            "group": "Writing content",
-            "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/reusable-snippets"]
-          },
-          {
-            "group": "AI tools",
-            "pages": ["ai-tools/cursor", "ai-tools/claude-code", "ai-tools/windsurf"]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "Knowledge Base",
-            "pages": ["api-reference/introduction"]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      },
-      {
         "tab": "Knowledge Base",
         "groups": [
           {
             "group": "Getting Started",
-            "pages": ["kb/introduction", "kb/singing-up", "kb/setting-profile"]
+            "pages": ["kb/introduction", "kb/signing-up", "kb/setting-profile"]
           },
           {
             "group": "Users & Teams",
