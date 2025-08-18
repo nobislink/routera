@@ -73,15 +73,15 @@
           {
             "group": "Routers",
             "pages": [
-              "knowledge-base/creating-router",
-              "knowledge-base/updating-router"
+              "kb/creating-routers",
+              "kb/updating-router"
             ]
           },
           {
             "group": "Users",
             "pages": [
-              "knowledge-base/managing-users",
-              "knowledge-base/availability"
+              "kb/inviting-users.mdx",
+              "kb/user-availability.mdx"
             ]
           }
         ]
