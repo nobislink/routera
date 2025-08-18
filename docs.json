@@ -14,7 +14,7 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started1",
+            "group": "Getting started",
             "pages": [
               "index",
               "quickstart",
@@ -63,6 +63,25 @@
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Knowledge Base",
+        "groups": [
+          {
+            "group": "Routers",
+            "pages": [
+              "knowledge-base/creating-router",
+              "knowledge-base/updating-router"
+            ]
+          },
+          {
+            "group": "Users",
+            "pages": [
+              "knowledge-base/managing-users",
+              "knowledge-base/availability"
             ]
           }
         ]
