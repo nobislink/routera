@@ -1,0 +1,76 @@
+---
+title: "Creating Routera Records"
+description: "This article will guide you through creating and managing records in Routera."
+---
+
+### Creating Records
+
+1. In the left sidebar, click **Records**, then select the object you want to create.
+
+   <img
+     src="/images/CleanShot2025-08-18at16.46.46.png"
+     alt="Clean Shot2025 08 18at16 46 46 Pn"
+     title="Clean Shot2025 08 18at16 46 46 Pn"
+     style={{ width:"97%" }}
+   />
+2. Click **Create Contacts** and complete the form on the right-hand side of the screen.
+
+<Note>
+  **First Name, Last Name, Email**, and **Company Name** are required fields.
+</Note>
+
+3. To adjust the columns shown on the screen, click **Edit Columns** and select the fields you want to display.
+
+---
+
+### Adding Filters
+
+1. Click **Filters**, then select **\+ Add Filter**.
+2. Use the search box to find the field you want to filter by, then select it from the list.
+
+![CleanShot 2025-08-18 at 16.58.39.png](/images/CleanShot2025-08-18at16.58.39.png)
+
+3. On the next screen, configure the filter:
+
+![Clean Shot2025 08 18at17 00 45 Pn](/images/CleanShot2025-08-18at17.00.45.png)
+
+- For **contains exactly** or **doesn’t contain exactly**, enter a keyword in the text field and press **Enter**.
+- To reset a filter option, click **is known** or **is unknown**, then reselect your preferred option.
+- Click **Add Filter** when done. Use **AND** or **OR** to combine multiple filters.
+
+![Clean Shot2025 08 18at17 09 19 Pn](/images/CleanShot2025-08-18at17.09.19.png)
+
+4. To manage filters:
+   - Click <Icon icon="copy" /> **Duplicate** to clone a filter.
+   - Click <Icon icon="trash-can" /> **Delete** to remove one.
+   - Click **Reset** at the top of the screen to clear all filters.
+
+---
+
+### Example Use Cases
+
+#### Using **AND**
+
+Suppose you want to find all **contacts in the United States who are assigned to a specific user**:
+
+1. Add a filter where **Country = United States**.
+2. Add another filter where **Contact Owner = (a user name)**.
+3. Use the **AND** operator to combine them.
+
+This will return only contacts who match **both** conditions.
+
+![Clean Shot2025 08 18at17 23 00 Pn](/images/CleanShot2025-08-18at17.23.00.png)
+
+---
+
+#### Using **OR**
+
+Suppose you want to find all **contacts located in either the United States or Canada**:
+
+1. Add a filter where **Country = United States**.
+2. Add another filter where **Country = Canada**.
+3. Use the **OR** operator to combine them.
+
+This will return contacts who match **either** condition.
+
+![Clean Shot2025 08 18at17 24 27 Pn](/images/CleanShot2025-08-18at17.24.27.png)
