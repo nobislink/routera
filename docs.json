@@ -43,7 +43,7 @@
     "global": {
       "anchors": [
         { "anchor": "Documentation", "href": "https://routera.mintlify.app/kb/introduction", "icon": "book-open-cover" },
-        { "anchor": "Community", "href": "https://routera.mintlify.app/kb/introduction", "icon": "slack" },
+        { "anchor": "Community", "href": "https://join.slack.com/t/routeracommunity/shared_invite/zt-3bnin4i6s-PBwJbZ1lq9R4RpsGgsczAg", "icon": "slack" },
         { "anchor": "Blog", "href": "https://routera.mintlify.app/kb/introduction", "icon": "newspaper" }
       ]
     }
